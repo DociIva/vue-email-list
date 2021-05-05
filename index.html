@@ -14,7 +14,12 @@
     
     <div id="app">
         <section class="section-lista">
-           <span>{{email}}</span>
+           <ul class="lista">
+               <li
+                  v-for="mail in email">
+                  {{ mail }}
+               </li>
+           </ul>
         </section>
      
 
